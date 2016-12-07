@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+:root{
+  font-size:10px;
+}
+*{
+  transition: all 300ms ease-in-out;
+}
+body{
+  background:aliceblue;
+  font-family: "Open Sans", sans-serif;
+}
+.board{
+  margin-top:4vh;
+  width:400px ;
+  height: 476px;
+  background:LightSteelBlue;
+  box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border-radius:10px;
+ }
+.sub-board{
+  text-align:center;
+  padding:1rem;
+  padding-top:5rem;
+  padding-bottom:5rem;
+  font-size:6rem;
+  transform : UPPERCASE;
+  background:SkyBlue;
+  border:1px solid black;
+  height:160px;
+  border-radius:9px;
+}
+.noshow{
+ display:none;
+}
+button,a{
+  margin:0 auto;
+    display: inline-block;
+  margin: 100px 0;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding: 1em 2em;
+  letter-spacing: 0.1em;
+  border-radius: 3px;
+  transition: all 300ms;
+  background: #3D9970;
+  margin-left:25px;
+  
+}
+a:hover{
+  text-decoration:none;
+}
+button:hover{box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px #3D9970;}
+#selection1>a{
+ background: #0074D9;
+/*   display:none; */
+}
+#selection1>a:hover{
+   box-shadow: 0px 0px 0px 1px #0074D9 inset, 0px 0px 0px 2px white inset;
+}
+#selection1,#selection{
+  margin-top:120px;
+  text-align:center;}
+h2{
+  letter-spacing: 5px;
+  margin-top:4vh;
+  margin-bottom:1vh;
+  text-align:center;
+  display:none;
+    font-size:20px;
+  font-family: "Open Sans", sans-serif;
+}
+#replay{
+  position:relative;
+  margin-top: -19px;
+  margin-bottom: 2px;
+  text-align:center;
+  color:black;
+  border:1px solid black;
+   font-size: 12px;
+  letter-spacing:1.5px;
+  font-family: "Open Sans", sans-serif;
+  width: 60px;
+  height: 19px;
+  border-radius:20px;
+   background:SkyBlue;
+
+  cursor:pointer;
+}
+#replay:hover{
+  transform: rotateX(360deg);
+}
+
